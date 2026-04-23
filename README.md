@@ -296,22 +296,6 @@ g++ -std=c++17 -O2 -o svm main.cpp DataGenerator.cpp SVM.cpp Visualizer.cpp
 - **s**: Destek vektörü sayısı (s ≤ n)
 - **iter**: SMO iterasyon sayısı (maksimum: 2000)
 - **W, H**: ASCII ızgara boyutu (sabit: 60×24)
-
----
-
-## 📁 Dosya Yapısı ve Sorumluluğu
-
-```
-analiz ödevi3/
-├── Point.h                 # Katman 1 — 2D veri modeli
-├── DataGenerator.h/.cpp    # Katman 2 — Deterministik veri üretici
-├── SVM.h/.cpp              # Katman 3 — SMO algoritması & çekirdek
-├── Visualizer.h/.cpp       # Katman 4 — ASCII render & sunum
-├── main.cpp                # Katman 5 — Senaryo yönetimi
-├── svm.exe                 # Derlenen executable
-└── README.md               # Bu dosya
-```
-
 ---
 
 ## 🎓 Akademik Açıklamalar
